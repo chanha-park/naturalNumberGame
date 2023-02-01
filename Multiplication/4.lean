@@ -1,0 +1,8 @@
+induction b with c hc,
+rw mul_zero,
+simp,
+rw add_succ,
+rw mul_succ,
+rw hc,
+rw mul_succ,
+simp,

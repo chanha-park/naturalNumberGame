@@ -1,0 +1,6 @@
+induction t with s hs,
+repeat {rw mul_zero},
+simp,
+repeat {rw mul_succ},
+rw hs,
+simp,
